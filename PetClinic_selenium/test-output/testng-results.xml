@@ -2,60 +2,60 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13101" started-at="2017-05-24T06:06:59Z" finished-at="2017-05-24T06:07:13Z">
+  <suite name="Default suite" duration-ms="16124" started-at="2017-05-30T12:40:29Z" finished-at="2017-05-30T12:40:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13101" started-at="2017-05-24T06:06:59Z" finished-at="2017-05-24T06:07:13Z">
-      <class name="Listener_Demo.TestCases">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="setup" is-config="true" duration-ms="2703" started-at="2017-05-24T11:36:59Z" finished-at="2017-05-24T11:37:02Z">
+    <test name="Default test" duration-ms="16124" started-at="2017-05-30T12:40:29Z" finished-at="2017-05-30T12:40:45Z">
+      <class name="PetClinic_Demo.TestCases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:PetClinic_Demo.TestCases@4157f54e]" name="setup" is-config="true" duration-ms="3743" started-at="2017-05-30T18:10:29Z" finished-at="2017-05-30T18:10:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="CountOfBlueColorTiles()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="CountOfBlueColorTiles" duration-ms="777" started-at="2017-05-24T11:37:02Z" finished-at="2017-05-24T11:37:03Z">
+        <test-method status="PASS" signature="AddOwner()[pri:0, instance:PetClinic_Demo.TestCases@4157f54e]" name="AddOwner" duration-ms="2021" started-at="2017-05-30T18:10:32Z" finished-at="2017-05-30T18:10:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CountOfBlueColorTiles -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="AfterTest" is-config="true" duration-ms="121" started-at="2017-05-24T11:37:03Z" finished-at="2017-05-24T11:37:03Z">
+        </test-method> <!-- AddOwner -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:PetClinic_Demo.TestCases@4157f54e]" name="AfterTest" is-config="true" duration-ms="126" started-at="2017-05-30T18:10:34Z" finished-at="2017-05-30T18:10:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="setup" is-config="true" duration-ms="2181" started-at="2017-05-24T11:37:03Z" finished-at="2017-05-24T11:37:05Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:PetClinic_Demo.TestCases@4157f54e]" name="setup" is-config="true" duration-ms="2616" started-at="2017-05-30T18:10:35Z" finished-at="2017-05-30T18:10:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="CountOfGreenColorTiles()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="CountOfGreenColorTiles" duration-ms="660" started-at="2017-05-24T11:37:05Z" finished-at="2017-05-24T11:37:06Z">
+        <test-method status="PASS" signature="VerifyHomePage()[pri:0, instance:PetClinic_Demo.TestCases@4157f54e]" name="VerifyHomePage" duration-ms="63" started-at="2017-05-30T18:10:37Z" finished-at="2017-05-30T18:10:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CountOfGreenColorTiles -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="AfterTest" is-config="true" duration-ms="131" started-at="2017-05-24T11:37:06Z" finished-at="2017-05-24T11:37:06Z">
+        </test-method> <!-- VerifyHomePage -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:PetClinic_Demo.TestCases@4157f54e]" name="AfterTest" is-config="true" duration-ms="131" started-at="2017-05-30T18:10:37Z" finished-at="2017-05-30T18:10:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="setup" is-config="true" duration-ms="2141" started-at="2017-05-24T11:37:06Z" finished-at="2017-05-24T11:37:08Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:PetClinic_Demo.TestCases@4157f54e]" name="setup" is-config="true" duration-ms="2701" started-at="2017-05-30T18:10:37Z" finished-at="2017-05-30T18:10:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="CountOfRedColorTiles()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="CountOfRedColorTiles" duration-ms="719" started-at="2017-05-24T11:37:08Z" finished-at="2017-05-24T11:37:09Z">
+        <test-method status="PASS" signature="VerifyFindOwnersPage()[pri:0, instance:PetClinic_Demo.TestCases@4157f54e]" name="VerifyFindOwnersPage" duration-ms="271" started-at="2017-05-30T18:10:40Z" finished-at="2017-05-30T18:10:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CountOfRedColorTiles -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="AfterTest" is-config="true" duration-ms="116" started-at="2017-05-24T11:37:09Z" finished-at="2017-05-24T11:37:09Z">
+        </test-method> <!-- VerifyFindOwnersPage -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:PetClinic_Demo.TestCases@4157f54e]" name="AfterTest" is-config="true" duration-ms="149" started-at="2017-05-30T18:10:40Z" finished-at="2017-05-30T18:10:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="setup" is-config="true" duration-ms="2133" started-at="2017-05-24T11:37:09Z" finished-at="2017-05-24T11:37:11Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:PetClinic_Demo.TestCases@4157f54e]" name="setup" is-config="true" duration-ms="2700" started-at="2017-05-30T18:10:41Z" finished-at="2017-05-30T18:10:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="Login" duration-ms="1261" started-at="2017-05-24T11:37:11Z" finished-at="2017-05-24T11:37:12Z">
+        <test-method status="PASS" signature="FindOwner()[pri:0, instance:PetClinic_Demo.TestCases@4157f54e]" name="FindOwner" duration-ms="1446" started-at="2017-05-30T18:10:43Z" depends-on-methods="PetClinic_Demo.TestCases.AddOwner" finished-at="2017-05-30T18:10:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="AfterTest" is-config="true" duration-ms="141" started-at="2017-05-24T11:37:12Z" finished-at="2017-05-24T11:37:13Z">
+        </test-method> <!-- FindOwner -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:PetClinic_Demo.TestCases@4157f54e]" name="AfterTest" is-config="true" duration-ms="131" started-at="2017-05-30T18:10:45Z" finished-at="2017-05-30T18:10:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
-      </class> <!-- Listener_Demo.TestCases -->
+      </class> <!-- PetClinic_Demo.TestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

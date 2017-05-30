@@ -3,12 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Listener_Demo.TestCases">
+      <class name="PetClinic_Demo.TestCases">
         <methods>
-          <include name="TestToFail"/>
+          <include name="AddOwner"/>
+          <include name="AfterTest"/>
+          <include name="FindOwner"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- Listener_Demo.TestCases -->
+      </class> <!-- PetClinic_Demo.TestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
