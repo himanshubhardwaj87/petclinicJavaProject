@@ -5,7 +5,7 @@
   	<test name="Random Test">
 		<classes>
        		<!-- 	-->
-       			<class name="Listener_Demo.TestCases" />				  
+       			<class name="PetClinic_Demo.TestCases" />				  
 		</classes>
   	</test> <!-- Test -->
 </suite> <!-- Suite -->
