@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13101" started-at="2017-05-24T06:06:59Z" finished-at="2017-05-24T06:07:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13101" started-at="2017-05-24T06:06:59Z" finished-at="2017-05-24T06:07:13Z">
+      <class name="Listener_Demo.TestCases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="setup" is-config="true" duration-ms="2703" started-at="2017-05-24T11:36:59Z" finished-at="2017-05-24T11:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CountOfBlueColorTiles()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="CountOfBlueColorTiles" duration-ms="777" started-at="2017-05-24T11:37:02Z" finished-at="2017-05-24T11:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CountOfBlueColorTiles -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="AfterTest" is-config="true" duration-ms="121" started-at="2017-05-24T11:37:03Z" finished-at="2017-05-24T11:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="setup" is-config="true" duration-ms="2181" started-at="2017-05-24T11:37:03Z" finished-at="2017-05-24T11:37:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CountOfGreenColorTiles()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="CountOfGreenColorTiles" duration-ms="660" started-at="2017-05-24T11:37:05Z" finished-at="2017-05-24T11:37:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CountOfGreenColorTiles -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="AfterTest" is-config="true" duration-ms="131" started-at="2017-05-24T11:37:06Z" finished-at="2017-05-24T11:37:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="setup" is-config="true" duration-ms="2141" started-at="2017-05-24T11:37:06Z" finished-at="2017-05-24T11:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CountOfRedColorTiles()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="CountOfRedColorTiles" duration-ms="719" started-at="2017-05-24T11:37:08Z" finished-at="2017-05-24T11:37:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CountOfRedColorTiles -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="AfterTest" is-config="true" duration-ms="116" started-at="2017-05-24T11:37:09Z" finished-at="2017-05-24T11:37:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="setup" is-config="true" duration-ms="2133" started-at="2017-05-24T11:37:09Z" finished-at="2017-05-24T11:37:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="Login" duration-ms="1261" started-at="2017-05-24T11:37:11Z" finished-at="2017-05-24T11:37:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:Listener_Demo.TestCases@1e643faf]" name="AfterTest" is-config="true" duration-ms="141" started-at="2017-05-24T11:37:12Z" finished-at="2017-05-24T11:37:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- Listener_Demo.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
