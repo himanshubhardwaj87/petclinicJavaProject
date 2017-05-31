@@ -23,7 +23,7 @@ def CodeCheckout() {
 	def WORKSPACE = pwd()
 	echo  "\u2600 **********SVN Code Checkout Stage Begins*******,Git_URL=> ${Git_URL}"
 	sh "rm -rf *"
-	scm checkout
+	checkout scm
 	stash 'codefiles'
 }
 
