@@ -3,7 +3,8 @@ package PetClinic_Demo;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;		
-import org.openqa.selenium.chrome.*;		
+import org.openqa.selenium.chrome.*;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -17,10 +18,8 @@ public class TestCases {
 	@BeforeMethod
 	public void setup()
 	{			
-		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-		ChromeOptions options = new ChromeOptions();
-        options.addArguments("--start-maximized");
-		driver = new ChromeDriver(options);
+
+		driver = new HtmlUnitDriver();
 		driver.get("http://10.127.127.74:8080/petclinic/");	
 	}
 		
