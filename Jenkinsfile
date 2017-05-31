@@ -39,7 +39,15 @@ def CodeBuild() {
 def SonarExecution() {
 	def PROJECT_PATH = "petclinicJavaProject"
 	echo  "\u2602 **********Sonar Execution started******************"
-	dir(PROJECT_PATH){ sh 'mvn sonar:sonar' }
+	dir(PROJECT_PATH){ 
+	//kill process
+        sh '''ps -ef | grep 8080 | grep -v grep | awk '{print $2}'  | sed -e "s/^/kill -9 /g" | sh -'''
+		//excute junit
+        sh '''mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install -Pcoverage-per-test'''
+
+        //update data to sonar server
+        sh '''mvn sonar:sonar'''
+ }
 }
 
 def CodeDeploy() {
